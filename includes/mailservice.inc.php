@@ -39,9 +39,9 @@ try {
   $mail->isHTML(true);                                  // Set email format to HTML
   $mail->Subject = 'Kuwayatx - Contact Form submitted from ' . $name;
   $mail->Body    = '<b>Name:</b>';
-  $mail->Body    .= '<p>'.$name.' </p>';
+  $mail->Body    .= '<p>'.$name.' </p><br>';
   $mail->Body    .= '<b>Email: </b>';
-  $mail->Body    .= '<a href="mailto:'.$userEmail.'">'.$userEmail.'</a></br>';
+  $mail->Body    .= '<a href="mailto:'.$userEmail.'">'.$userEmail.'</a><br>';
   $mail->Body    .= '<br><b>Subject:</b>';
   $mail->Body    .= '<p>'.$subject.'</p></br>';
   $mail->Body    .= '<br><b>Message:</b>';
