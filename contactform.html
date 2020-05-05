@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact form example">
+  <title>Contact Form Example</title>
+
+  <link rel="shortcut icon" href="images/banhmi-logo.png" type="image/x-icon" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="fonts/beyond_the_mountains-webfont.css" type="text/css"/>
+
+        <!-- Stylesheets -->
+        <link href="plugin-frameworks/bootstrap.min.css" rel="stylesheet">
+        <link href="plugin-frameworks/swiper.css" rel="stylesheet">
+        <link href="fonts/ionicons.css" rel="stylesheet">
+        <link href="common/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+<!-- START HERE -->
+
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbw-zW3CpBkAem-R31j0Rb6TV15xzCstoiHIYer64nHfrlIcugQ/exec">
+    <!-- change the form action to your script url -->
+
+ <section class="story-area left-text center-sm-text">
+        <div class="container">
+                <div class="heading">
+                        <img class="heading-img" src="images/banhmi-logo.png" alt="">
+                        <h2>Say hello</h2>
+                        <h5 class="mt-10 mb-30">Say hello, send us a message</h5>
+                        <p class="mx-w-700x mlr-auto">We love to hear your feedback. Please don't hesitate to send us any question or suggestion. We promise to keep improving and give you
+                        the best experience at our food truck.</p>
+                </div>
+
+                <form id="gform" method="POST" class="form-style-1 placeholder-1" action="https://script.google.com/macros/s/AKfycbw-zW3CpBkAem-R31j0Rb6TV15xzCstoiHIYer64nHfrlIcugQ/exec">
+                        <div class="row">
+                                <div class="col-md-6"> <input class="mb-20" type="text" name="Name" placeholder="Name">  </div>
+                                <div class="col-md-6"> <input class="mb-20" type="email" name="email" required placeholder="E-mail"> </div>
+                                <div class="col-md-12"><input class="mb-20" type="text" name="Subject" placeholder="Subject">  </div>
+                                <div class="col-md-12">
+                                        <textarea class="h-200x ptb-20" name="Message" placeholder="Message"></textarea></div>
+
+                        </div><!-- row -->
+
+                        <h6 class="center-text mtb-30"><button type="submit" class="btn-primaryc plr-25"><a href="thankyou.html">SEND MESSAGE</a></button></h6>
+                        <button class="button-success pure-button button-xlarge">
+                             <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+                </form>
+        </div><!-- container -->
+</section>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <h2><em>Thanks</em> for contacting us!
+        We will get back to you soon!</h2>
+    </div>
+
+  </form>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="form-submission-handler.js"></script>
+  <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+<!-- END -->
+
+</body>
+</html>
