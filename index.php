@@ -29,7 +29,7 @@
 
 <header>
         <div class="container">
-                <a class="logo" href="index.html"><img src="images/banhmi-logo.png" alt="Logo"></a>
+                <a class="logo" href="index.php"><img src="images/banhmi-logo.png" alt="Logo"></a>
 
                 <div class="right-area">
                         <h6><a class="plr-20 color-white btn-fill-primary" href="tel:5128528468">ORDER: +1 512 852 8468</a></h6>
@@ -38,7 +38,7 @@
                 <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
 
                 <ul class="main-menu font-mountainsre" id="main-menu">
-                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index.php">HOME</a></li>
                         <li><a href="#location">LOCATION</a></li>
                    <!--      <li><a href="03_menu.html">SERVICES</a></li>
                         <li><a href="04_blog.html">NEWS</a></li> -->
@@ -289,7 +289,7 @@
 <footer id="location" class="pb-50  pt-70 pos-relative">
         <div class="pos-top triangle-bottom"></div>
         <div class="container-fluid">
-                <a href="index.html"><img class="footer-logo" src="images/banhmi-logo.png" alt="Logo"></a>
+                <a href="index.php"><img class="footer-logo" src="images/banhmi-logo.png" alt="Logo"></a>
 
                 <div class="pt-30">
                     <p class="underline-secondary"><b>Delivery Services</b></p>
